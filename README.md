@@ -22,7 +22,7 @@ Installation
 
 1. Clone the repository:
 ```bash
-https://github.com/Bikas0/Red-Flag-Detection-using-YOLOv8.git
+https://github.com/tasmia008/Red-Flag-Detection-using-YOLOv8.git
 ```
 2. Create a virtual environment
 ```bash
@@ -71,7 +71,6 @@ python main.py
 
 ## Training
 
-If you wish to train the YOLOv8 model on your own dataset for red flag detection, you can follow these steps:
 
 1. *Dataset Preparation*: Gather a dataset containing images with red flags along with corresponding annotations (bounding boxes) using roboflow.
 2. *Configuration*: Modify the YOLOv8 configuration file (yolov8.cfg) to suit your dataset and training preferences(use roboflow generated code for access the annoted dataset) .
